@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto', sans-serif ;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    color: #252525;
+    transition: 0,5s ease-in-out;
+    text-align: center;
+    box-align: center;
+}   
+h1 {
+    text-align: center;
+} 
+input[type="checkbox"] {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    background-color: #434343;
+    appearance: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;    
+    transition: 0,5 ease;
+}
+input[type="checkbox"]:checked {
+    background-color: chartreuse;
+}
+input[type="checkbox"]::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: 0,7s ease;
+}
+input[type="checkbox"]:checked::before {
+    transform: translateX(20px)
+}
+.dark-mode {
+    background-color: #252525;
+    color: rgb(255, 255, 255);
+}
+.parrafo-experiencia {
+    font-style: italic;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.titulo {
+    font-size: large;
+    font-style: unset;
+    
+}
+
+.foto {
+    border-radius:50%;
+    border:10px solid #ffffff;
+    display: block;
+    margin: auto;
+    
+}
+
+.letra-musica {
+    font-size: smaller;
+}
+section2 {
+    text-align: center;
+}
+
+section4 {    
+    text-align: center;
+}
+section5 {
+    text-align: center;
+}
+.texto-oscuro {
+    margin-inline-end: 0%;
+    font-size: smaller;
+}
+
+
