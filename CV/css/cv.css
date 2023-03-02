@@ -63,11 +63,14 @@ input[type="checkbox"]:checked::before {
 }
 .letra-musica {
     font-size: smaller;
+    text-align: center;
+    box-align: center;
     
 }
 
 .descargar-cv{    
-    
+    text-align: center;
+    box-align: center;
 
 }
 .texto-oscuro {
