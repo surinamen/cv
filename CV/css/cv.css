@@ -54,7 +54,6 @@ input[type="checkbox"]:checked::before {
     font-style: unset;
     
 }
-
 .foto {
     border-radius:50%;
     border:10px solid #ffffff;
@@ -62,12 +61,10 @@ input[type="checkbox"]:checked::before {
     margin: auto;
     
 }
-
 .letra-musica {
     font-size: smaller;
     text-align: center;
 }
-
 
 .descargar-cv{    
     text-align: center;
