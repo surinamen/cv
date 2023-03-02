@@ -65,20 +65,15 @@ input[type="checkbox"]:checked::before {
 
 .letra-musica {
     font-size: smaller;
-}
-section2 {
     text-align: center;
 }
 
-section4 {    
+
+.descargar-cv{    
     text-align: center;
-}
-section5 {
-    text-align: center;
+
 }
 .texto-oscuro {
     margin-inline-end: 0%;
     font-size: smaller;
 }
-
-
